@@ -6,28 +6,28 @@ This is a simple implementation of a hash map data structure in the C programmin
 
 ## Usage 
 1. Initialization: To create a new hash map, use the new_hash_map function. This initializes an empty hash map with default settings.
-	```
+	```C
 	HashMap* map = new_hash_map();
 	```
 
 2. Insertion: You can add key-value pairs to the hash map using the put function.
-	```
+	```C
 	put(map, "key1", 42);
 	put(map, "key2", 17);
 	```
 
 3. Retrieval: To retrieve a value associated with a key, use the get function.
-	```
+	```C
 	int value = get(map, "key1");
 	```
 
 4. Removal: To remove a key-value pair, use the remove_item function.
-	```
+	```C
 	remove_item(map, "key2");
 	```
 
 5. Destroy: To release the memory allocated for the hash map, use the destroy function.
-	```
+	```C
 	destroy(map);
 	```
 
